@@ -66,4 +66,4 @@ MIT License
 
 # リンク
 
-[drawlib](https://github.com/euske/drawlib/blob/master/drawlib.c)
+[drawlibの関数一覧](https://github.com/euske/drawlib/blob/master/drawlib.c)
