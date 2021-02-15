@@ -17,11 +17,6 @@ drawlibを使って写真を描画しました。
 - OS: Ubuntu 18.04 LTS
 
 
-# デモ動画
-
-[![描画](http://img.youtube.com/vi/fpp5_MiNWe0/hqdefault.jpg)](https://youtu.be/fpp5_MiNWe0)
-
-
 # インストール方法
 
 - Open CVとdrawlib
@@ -55,11 +50,13 @@ gcc photo.c -o test -ldrawlib;./test
 
 - 画像を変更する場合はreading_rgb_from_picture.cppのℓ26を変更してください。(同一ファイル内に写真を置く必要あり)
 
+- ℓ12,13のサイズも変更してください。
+
 # ライセンス
 
 MIT License
 
 # リンク
 
-画像はいらすとや様よりお借りしました
+画像はいらすとや様よりお借りしました。
 [リンク](https://www.irasutoya.com/2020/01/blog-post_554.html)
