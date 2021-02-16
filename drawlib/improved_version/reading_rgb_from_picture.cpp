@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     // 別ファイルにある場合(複数可能)
 
     // パスを指定(拡張子は除く)
-    const std::string base = "/home/nakamura/Git/programming_base/drawlib/improved_version/train_arashiyama_torokko_kouyou";
+    const std::string base = "PATH_NAME"; // パスを入力(相対パスでない)
     std::vector<std::string> files;
 
     // 使用されている拡張子を1つ指定
