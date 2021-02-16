@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
     // 同一フィルにある場合(１つの画像のみ)
     
-    std::string input_file = "train_arashiyama_torokko_kouyou.png";
+    std::string input_file = "train_arashiyama_torokko_kouyou.png";　// 相対パスを記入
     cv::Mat input_image_rgb = cv::imread(input_file, CV_LOAD_IMAGE_COLOR);
     
     // RGBを保存
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     // 別ファイルにある場合(複数可能)
 
     // パスを指定(拡張子は除く)
-    const std::string base = "/home/nakamura/Git/programming_base/drawlib/original";
+    const std::string base = "/home/nakamura/Git/programming_base/drawlib/improved_version/train_arashiyama_torokko_kouyou";
     std::vector<std::string> files;
 
     // 使用されている拡張子を1つ指定
